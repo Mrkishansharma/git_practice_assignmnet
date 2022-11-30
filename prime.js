@@ -1,13 +1,13 @@
 
-let num=7;
+let num=17;
 
 let isPrime = "Yes";
 
-if(num==1 && num==2){
+if(num==1 || num==2){
     console.log(isPrime);
 }else{
-    for(let i=2; i<num; i++){
-        if(num%i == 0){
+    for(let x=2; x<num; x++){
+        if(num%x === 0){
             isPrime = "No";
             break;
         }
